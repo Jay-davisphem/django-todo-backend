@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 #DEBUG = False
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['localhost', 'https://wannado.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '.herokuapp.com']
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
 
